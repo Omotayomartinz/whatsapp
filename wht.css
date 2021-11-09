@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.head{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+
+}
+
+.left{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+}
+
+.nav{
+    background-color: #131c21;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin: 0 15px;
+    border-color: yellow;
+    flex: 1;
+    display: flex;
+}
+
+.logo img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.gft{
+    flex: 1;
+}
+
+.spc{
+    display:flex;
+    /* margin: 0 0px; */
+    align-items: center;
+    margin-right: 10px;
+}
+
+.spc img{
+    margin: 0 10px;
+}
+
+.sap{
+    width: 100%;
+    height: 52px;
+    background-color: #131c21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+}
+
+.sapp{
+    border-radius: 100px;
+    background-color: #3b4044;
+    width: 90%;
+    display: flex;
+    height: 40px;
+}
+
+.ser{
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.ser img{
+    width: 20px;
+    height: 20px;
+}
+
+.sapp input{
+    margin: 0 20px;
+    border: none;
+    font-weight: 500;
+    background: none;
+    outline: none;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.ser ::placeholder{
+    color: whitesmoke;
+}
+
+.cir{
+    width: 7px;
+    height: 7px;
+    background-color: rgb(10, 149, 10);
+    border-radius: 100px;
+    border: 2px solid whitesmoke;
+}
+
+.ffd{
+    flex: 1;
+    display: flex;
+    margin: 22px 100px;
+}
+
+.doe{
+    width: 100%;
+    height: 70px;
+    background-color: #131c21;
+    display: flex;
+    align-items: center;
+}
+
+.log{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+.text{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+    /* border-bottom: 1px solid rgb(199, 25, 25); */
+}
+
+.text span{
+    font-size: 17px;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: whitesmoke;
+    text-transform: capitalize;
+
+}
+
+.two{
+    display: flex;
+    align-items: center;
+}
+
+.two img{
+    width: 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.two p{
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: lightsteelblue;
+}
+
+.NameTime{
+    display: flex;
+    justify-content: space-between;
+}
+.NameTime p{
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 13px;
+    color: rgb(133, 133, 133);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.doe:hover{
+    background-color:  #3b4044;
+}
+
+.log img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.right{
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262d31;
+}
+
+
+
+.cat{
+    width: 90%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.con{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    margin-top: 50px;
+}
+
+.con img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+.fri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    margin-top: -20px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.226);
+}
+
+.fri span{
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(212, 204, 204, 0.863);
+}
+
+.fri p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-top: 5px;
+    color: rgba(245, 245, 245, 0.637);
+}
+
+.lin{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.nin{
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.nin img{
+    width: 20px;
+    height: 20px;
+}
+
+.tax{
+    margin: 0 10px;
+}
+
+.tax span{
+    font-family: sans-serif;
+    color: rgb(172, 172, 172);
+    font-size: 14px;
+}
+
+.tax a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(17, 105, 17);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background: none;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(146, 111, 111);
+    border-radius: 5px;
+    background-clip: content-box;
+}
